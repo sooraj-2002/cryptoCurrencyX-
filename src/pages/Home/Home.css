@@ -1,0 +1,107 @@
+.home{
+    padding: 0px 10px;
+    padding-bottom: 100px;
+}
+.hero{
+    max-width: 600px;
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;    
+}
+.hero h1{
+    font-size: max(3vw,36px);
+    font-weight: 600;
+    /* font-size: max(60px); */
+}
+.hero p{
+    width: 75%;
+    color: #e3e3e3;
+    line-height: 1.5;
+}
+.hero form{
+    padding: 8px;
+    width: 80%;
+    background: white;   
+    border-radius: 5px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.hero input{
+    flex: 1;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+}
+.hero button{
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+.cryptotabel{
+    max-width: 800px;
+    margin: auto;
+    background: -webkit-linear-gradient(to top, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #01294d, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    border-radius: 15px;
+}
+.tabellayout{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1.5fr;
+    padding: 15px 20px;
+    align-items: center;
+    border-bottom: 1px solid #3c3c3c;
+}
+.marketcap{
+    text-align: right;
+}
+.tabellayout:last-child{
+    border: none;
+}
+.tabellayout div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.tabellayout div img {
+    width: 30px;
+}
+.tabellayout .green{
+    color: #00D515;
+    text-align: center;
+}
+.tabellayout .red{
+    color: #ff4646;
+    text-align: center;
+}
+@media (max-width:768px) {
+    .tabellayout{
+        grid-template-columns: 0.5fr 3fr 1fr 1fr;
+    }
+    .marketcap{
+        display: none;
+    }
+}
+@media (max-width:500px) {
+    .tabellayout div img {
+        width: 25px;
+    }
+    .tabellayout{
+        font-size: 13px;
+    }
+    .hero form  input{
+        width: 100px;
+    }
+}

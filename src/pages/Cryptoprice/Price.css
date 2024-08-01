@@ -1,0 +1,67 @@
+/* CryptoNews.css */
+
+.crypto-news {
+    padding: 20px;
+    margin: auto;
+    align-content: center;
+  }
+
+  .crypto-news h1{
+    font-size: 37px;
+    margin: 30px;
+    text-align: center;
+  }
+  
+  .news-article {
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 10px;
+    box-shadow: 10px 10px 18px rgba(0, 0, 0, 0.1);
+    border: 1px solid  rgba(66, 66, 66, 0.1);
+  }
+  
+  .news-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .news-description {
+    padding: 10px;
+  }
+  
+  .news-title {
+    font-size: 1.2em;
+    margin: 0;
+  }
+  
+  .news-text {
+    color: #555;
+  }
+  
+  .read-more {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .show-more-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .show-more-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .loading, .error {
+    text-align: center;
+    font-size: 1.2em;
+  }
+  

@@ -1,0 +1,77 @@
+/* About.css */
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #e0e0e0;
+  }
+  
+  .about-container  h1, h2 {
+    color: #ffffff;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    /* font-weight: 900;  */
+  }
+  
+  .intro {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .about-image {
+    width: 450px;
+  }
+  
+  p {
+    margin: 10px 0;
+  }
+  
+  .details-section, .contact-section {
+    margin-top: 20px;
+  }
+  
+  .contact-section p {
+    font-style: italic;
+    color: #b0c4de;
+  }
+  .socialmedia{
+    max-width: 500px;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    padding: 5px;
+  }
+  .socialmedia a{padding: 5px;}
+  .socialmedia img{
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+  }
+  .socialmedia img:hover{
+    border-radius: 50%;
+    transition: all 0.5s;
+  }
+  @media (max-width: 600px) {
+    .intro {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .about-image {
+      width: 100%;
+    }
+    .socialmedia{
+        width: 100%;
+        align-items: center;
+        margin: 0 auto;
+        display: flex;
+        padding: 8px;
+      }
+      .socialmedia a{padding: 8px;}
+      .socialmedia img{
+        padding: 10px 10px 10px 10px;
+      }
+  }
+  
