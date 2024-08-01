@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/cryptoCurrencyX-/static/css/main.1e65151a.css",
+    "main.js": "/cryptoCurrencyX-/static/js/main.6f398a51.js",
+    "static/js/453.661a0cf0.chunk.js": "/cryptoCurrencyX-/static/js/453.661a0cf0.chunk.js",
+    "static/media/suraj0-r.png": "/cryptoCurrencyX-/static/media/suraj0-r.bfa197409da921e8314b.png",
+    "index.html": "/cryptoCurrencyX-/index.html",
+    "static/media/github.svg": "/cryptoCurrencyX-/static/media/github.e7ab8675a2cbadea548cafe724065b9e.svg",
+    "static/media/twitter.svg": "/cryptoCurrencyX-/static/media/twitter.410a9d14144a810542330f7d951ff2cf.svg",
+    "static/media/instagram.svg": "/cryptoCurrencyX-/static/media/instagram.7d97391465d60f2909c444d267ea80ff.svg",
+    "main.1e65151a.css.map": "/cryptoCurrencyX-/static/css/main.1e65151a.css.map",
+    "main.6f398a51.js.map": "/cryptoCurrencyX-/static/js/main.6f398a51.js.map",
+    "453.661a0cf0.chunk.js.map": "/cryptoCurrencyX-/static/js/453.661a0cf0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e65151a.css",
+    "static/js/main.6f398a51.js"
+  ]
+}
